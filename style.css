@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background-image: url(Images/calm-aesthetic-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+button{
+    width: 220px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5%;
+    background-color: rgb(52, 79, 110);
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+.ball{
+    border: 2px solid black;
+    width: calc(55vw + 3rem);
+    height:fit-content;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 89px 129px 168px -100px;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 26px;
+}
+
+.animate{
+    animation: bounce 500ms ease-out ;
+    justify-content: s;
+   
+}
+
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+
+  40% {
+      transform: translateY(-50px);
+  }
+
+  60% {
+      transform: translateY(-25px);
+  }
+}
