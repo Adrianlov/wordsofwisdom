@@ -43,7 +43,7 @@ button{
     box-shadow: 89px 129px 168px -100px;
     background-color: rgba(0, 0, 0, 0.514);
     color: aliceblue;
-    font-size: 2rem;
+    font-size: calc(0.5em + 14px);
     padding: 26px;
 }
 
